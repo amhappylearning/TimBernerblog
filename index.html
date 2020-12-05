@@ -1,55 +1,106 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 
 <head>
-    <title>Tim Berner's Lee</title>
+    <meta charset="UTF-8">
+    <title>Tim Berner Lee</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-    <script src="main.js"> </script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <script src="main.js"></script>
+
 </head>
 
 <body>
 
-    <ul class="menu">
-        <li class="links">Home</li>
-        <li class="links">About </li>
-        <li class="links">Work</li>
-        <li class="links">Writing</li>
-        <li class="links">Contact</li>
-    </ul>
+    <section>
+        <ul class="menu">
+            <li class="links"><a href="#Bio">About</a></li>
+            <li class="links"><a href="#Work">Blog</a></li>
+            <li class="links"><a href="#Video">Videos</a></li>
+            <li class="links"><a href="#Writing">Writing</a></li>
+            <li class="links"><a href="#Contact">Contact</a></li>
+        </ul>
+    </section>
 
 
 
 
-    <section id="welcome">
-        <div class="parallax-inner">
-            <img id="img1" class="profile" src="tbl.jpg">
-
-            <h1>
-                I Am <br><span id="name">Tim Berner's Lee.</span></h1>
 
 
-            <h2>
-                I am <span>the founder of WWW: World Wide Web.</span>
-            </h2>
+
+
+    <section id="Welcome">
+
+        <div class="welcome-inner">
+            <img src="Tim%20Berner%20Lee.jpg" class="profile">
+
+
+
+            <h2 class="h2" id="h2">I Am <span id="name"> Tim Berner's Lee </span>.</h2>
+
+            <h3 class="h3" id="h3"> I am the founder of www: (World wide Web</h3>
         </div>
-    </section>
 
-    <section id="bio">
-        <h3> Hi! </h3>
-        <div class="line"> </div>
-
-        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory.<br>
-            He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.<br>
-
-            In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.<br>
-
-            In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users.<br>
-
-            The Web was first used for e-commerce in 1997.</p>
     </section>
 
 
 
-</body>
+    <section id="Bio">
+        <h1 id="h1">Hi!</h1>
+        <h1>About</h1>
+        <div class="line"></div>
 
-</html>
+        <p>Sir Tim Berners-Lee invented the World Wide Web in 1989.<br>
+            Tim is the Director of the World Wide Web Consortium (W3C), a Web standards organization founded in 1994 which develops interoperable technologies (specifications, guidelines, software, and tools) to lead the Web to its full potential. He is a Director of the World Wide Web Foundation which was launched in 2009 to coordinate efforts to further the potential of the Web to benefit humanity.<br>
+
+            A graduate of Oxford University, Sir Tim invented the Web while at CERN, the European Particle Physics Laboratory, in 1989. He wrote the first web client and server in 1990. His specifications of URIs, HTTP and HTML were refined as Web technology spread.<br>
+
+        </p>
+    </section>
+
+
+    <section id="Work">
+        <h1>Blog</h1>
+        <div class="line"></div>
+        <iframe width="685" height="400" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee##Career_and_research" frameborder="0"></iframe>
+    </section>
+
+
+    <section id="Video">
+        <h1>Video</h1>
+        <div class="line"></div>
+        <br>
+        <iframe width="685" height="500" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <iframe width="685" height="500" src="https://www.youtube.com/embed/rCplocVemjo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+
+
+
+    <section id="Writing">
+        <h1>Writing</h1>
+        <div class="line"></div>
+        <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30" target="_blank">30 years on, what’s next ForTheWeb?</a>
+        <br>
+        <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
+
+    </section>
+
+
+
+
+
+
+
+
+
+</body></html>
